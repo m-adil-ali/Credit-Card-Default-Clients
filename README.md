@@ -1,5 +1,5 @@
 # Credit Card Default Clients Prediction Project:
-[Streamlit Link](https://credit-card-default-clients.streamlit.app/)
+[Streamlit Live Link](https://credit-card-default-clients.streamlit.app/)
 
 ### 📊 Overview
 - This project focuses on predicting credit card defaults using machine learning techniques. We’ll walk through the steps from data preparation to model deployment.
