@@ -5,6 +5,7 @@
 
 # Steps Taken
 1. Data Acquisition
+
     Obtained the dataset from the UCI Machine Learning Repository.
     Explored the metadata to understand its structure and features.
 2. Data Cleaning
