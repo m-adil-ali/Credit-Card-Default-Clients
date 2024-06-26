@@ -65,5 +65,18 @@ if submit_button:
     
     # Applying the same standard scaler transformation to the user input data through which we have fit.transformed X_train during model training.
     full_input_scaled = scaler.transform(user_input)
-     
     
+    # Predicting the result.
+    prediction = model.predict(full_input_scaled)
+    st.write('---')
+    st.write('### Predictions based on your given input data:')
+    if prediction == 0:
+        st.write("You are not likely to default on your credit card next month.")
+    else:
+        st.write("You are likely to default on your credit card next month.")
+     
+    prediction_proba = model.predict_proba(full_input_scaled)
+    
+    st.subheader('Prediction Probability')
+    st.write('1 means likelihood to default and 0 means likelihood to not default')
+    st.write(prediction_proba)
