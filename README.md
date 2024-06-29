@@ -21,9 +21,9 @@
 5. Model Selection\
     Split the dataset into training and testing sets.\
     Normalized features to ensure consistent scaling.\
-    Experimented with various machine learning models:\
-     - Logistic Regression\
-     - Decision Tree Classifier\
+    Experimented with various machine learning models:
+     - Logistic Regression
+     - Decision Tree Classifier
      - Random Forest Classifier
 6. Model Evaluation\
     Evaluated model performance using metrics such as accuracy, precision, recall, and F1-score.\
