@@ -30,12 +30,12 @@
     Selected the best-performing model based on validation results.
 7. Model Deployment\
     Saved the best model as a .pkl file for future use.\
-    Created a .py file for user interface using Streamlit to allow real-time predictions based on user input.
+    Created a .py file for the user interface using Streamlit to allow real-time predictions based on user input.
 
 # Usage
 
 Clone this repository and install the required dependencies.\
 Load the pre-trained model using the .pkl file.\
-Use the .py file to make webpage to predict credit card defaults based on real time user input.\
+Use the .py file to make a webpage to predict credit card defaults based on real-time user input.\
 Feel free to customize this template with specific details about your dataset, features, and findings.\
 Good luck with your project! 🚀
